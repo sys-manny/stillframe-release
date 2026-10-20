@@ -9,7 +9,7 @@
 <h1 align="center">Stillframe</h1>
 <p align="center"><strong>Your media. A clearer view.</strong></p>
 <p align="center">A home for your photo and video collectionsâ€”right where they already live.</p>
-<p align="center"><strong>Windows desktop Â· Public beta 0.6.0 Â· Optional local AI</strong></p>
+<p align="center"><strong>Windows desktop · Public beta 0.6.0 · Optional local AI</strong></p>
 <p align="center">
   <a href="https://github.com/sys-manny/stillframe-release/releases"><strong>Download Stillframe</strong></a>
   &nbsp; Â· &nbsp;

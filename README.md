@@ -33,6 +33,20 @@ Bring folders together in one visual workspace. Browse photos and videos, move t
 | Set a video range, compare options, pin and re-roll. | Rename batches in their displayed sort order. |
 | Switch between light, dark and system appearance. | Review file changes before applying them. |
 
+## Tags that fit your collection.
+
+Tag whole folders or individual files, select several items to work in batches, and organize your vocabulary into clear categories. Each library keeps its own vocabulary. Use **Tag tools** to edit available tags or clean unused ones, then filter your collection by the tags you need.
+
+![Stillframe file-tagging workspace with a photography vocabulary, selected Car tag, photo preview and Tag tools menu open](assets/tags-light.jpg)
+
+## Take your collection setup with you.
+
+Export a library as a **`.sflib` package**, then import it into another Stillframe installation. Bring the catalog, folder/file tags and library vocabulary without rebuilding your organization from scratch.
+
+- **Library exports** carry cached thumbnails and metadata for reuse.
+- **Preference exports** can bring app settings instead; rebuildable caches are excluded from that export mode.
+- **Original media stays separate.** Make it accessible on the destination PC and use **Locate** if its folder path has changed.
+
 ## Your clips, beyond the filename.
 
 Gameplay highlights, travel footage, everyday recordings: browse videos by their thumbnails, then watch them without leaving your collection. Keep nearby clips in the filmstrip, seek in ten-second steps during playback, and choose Play to end, Repeat or Play through.
@@ -64,9 +78,9 @@ Add **visEngine**, powered by Qwen, for local visual tag suggestions you review 
 
 ## Light when you want it.
 
-The same workspace, with a lighter touch. Choose Light, Dark or System to suit your setup.
+The same workspace, with a lighter touch. Open **Display** to choose Light, Dark or System, adjust thumbnail density and accent, and switch between simple and technical media information.
 
-![Stillframe in light mode showing the same demo collection](assets/library-light.png)
+![Stillframe in Light theme with Display open, showing appearance, density, accent and media information controls](assets/display-light.jpg)
 
 ## Start with a folder.
 

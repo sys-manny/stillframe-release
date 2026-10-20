@@ -8,11 +8,11 @@
 
 <h1 align="center">Stillframe</h1>
 <p align="center"><strong>Your media. A clearer view.</strong></p>
-<p align="center">A home for your photo and video collectionsâ€”right where they already live.</p>
-<p align="center"><strong>Windows desktop · Public beta 0.6.0 · Optional local AI</strong></p>
+<p align="center">A home for your photo and video collections - right where they already live.</p>
+<p align="center"><strong>Windows desktop | Public beta 0.6.0 | Optional local AI</strong></p>
 <p align="center">
   <a href="https://github.com/sys-manny/stillframe-release/releases"><strong>Download Stillframe</strong></a>
-  &nbsp; Â· &nbsp;
+  &nbsp; | &nbsp;
   <a href="https://github.com/sys-manny/stillframe-release/issues">Report an issue</a>
 </p>
 
@@ -65,7 +65,7 @@ Prefer portable? Extract the complete application ZIP and run **`Stillframe.exe`
 
 **Requires 64-bit Windows.** The .NET Desktop runtime is included; no separate .NET installation is needed.
 
-[**Download the public beta â†’**](https://github.com/sys-manny/stillframe-release/releases)
+[**Download the public beta**](https://github.com/sys-manny/stillframe-release/releases)
 
 ---
 

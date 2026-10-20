@@ -1,0 +1,89 @@
+STILLFRAME PERSONAL USE LICENSE
+Version 1.0
+
+Copyright (c) 2026 sys-manny (GitHub: https://github.com/sys-manny).
+All rights reserved except as expressly granted below.
+
+In this license, "copyright holders" means the owners of the copyright in
+Stillframe's proprietary components. Third-party components are addressed in
+Section 5.
+
+1. Free personal use
+
+You may download, install and use officially distributed Stillframe application
+releases free of charge for your own personal, noncommercial purposes. You may
+install them on multiple devices you use and make copies for your own backup or
+portable use. No purchase or subscription is required for this permission.
+
+"Personal, noncommercial purposes" means use by an individual for their own
+private or hobby activities, rather than for paid work, a business, a revenue-
+generating project, or on behalf of an organization. Use for a school, nonprofit,
+club or other organization requires separate permission, even if unpaid.
+
+You may use Stillframe's documented customization features, including changing
+preferences, editing tag vocabularies, importing and exporting collections, and
+installing supported addons. These activities do not grant permission to modify
+or redistribute proprietary program code.
+
+2. Private source code
+
+Stillframe is proprietary software. Its application source code is currently
+private and is not licensed as open source. Public downloads, documentation and
+screenshots do not grant access to, or a license to distribute, the application
+source code. Rights not expressly granted by this license are reserved.
+
+3. Uses requiring separate permission
+
+This license does not authorize commercial or organizational use, sale, rental,
+sublicensing, redistribution, or distribution of modified versions of Stillframe.
+Those uses require separate written permission from the copyright holders.
+You may share links to the official Stillframe download page.
+
+Except for the documented customization permitted in Section 1 and the rights
+preserved by Section 5 or applicable law, you may not modify, decompile,
+disassemble or reverse-engineer Stillframe's proprietary program code, or remove
+its copyright, attribution or license notices. Section 5 takes precedence over
+any conflicting restriction in this license.
+
+4. Your media and data
+
+You retain your rights in your media, tags, collection data and other content.
+This license does not transfer ownership of that content to the copyright
+holders or impose restrictions on the content itself. Your use of Stillframe to
+create or organize content remains subject to Section 1, including its personal,
+noncommercial use limitation. You remain responsible for having the necessary
+rights to the content you use.
+
+5. Third-party components
+
+Bundled libraries, runtimes, icons, models and other third-party components are
+governed by their respective licenses and notices. This license applies only to
+Stillframe's own proprietary components and does not replace or restrict rights
+granted or required by those third-party licenses.
+
+To the extent required by an applicable LGPL license, you may modify the linked
+work for your own use and reverse-engineer it to debug those modifications. You
+may also replace or modify LGPL-covered libraries as permitted by their licenses.
+These permissions apply notwithstanding restrictions elsewhere in this license
+and do not promise access to Stillframe's proprietary source code.
+
+Keep the accompanying third-party licenses and notices with those components.
+Refer to the distribution's ThirdParty directory for component-specific terms
+and source information.
+
+6. No warranty; limitation of liability
+
+To the extent permitted by applicable law, Stillframe is provided "AS IS", without
+warranties of any kind, including merchantability, fitness for a particular
+purpose and noninfringement. To the extent permitted by applicable law, the
+copyright holders and contributors are not liable for claims, damages or other
+liability arising from the software or its use, including loss of data. Nothing
+in this license excludes rights or liability that applicable law does not allow
+to be excluded. Keep backups of important media.
+
+7. Future releases
+
+Future releases may be offered under different terms. A later license change does
+not, by itself, replace the permissions granted here for a release distributed
+under this license. This license does not guarantee future updates, support,
+or access to Stillframe's proprietary source code.

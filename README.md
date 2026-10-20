@@ -7,101 +7,112 @@
 </p>
 
 <h1 align="center">Stillframe</h1>
-<p align="center"><strong>Your media. A clearer view.</strong></p>
-<p align="center">A home for your photo and video collections - right where they already live.</p>
-<p align="center"><strong>Windows desktop | Public beta 0.6.0 | Optional local AI</strong></p>
+<p align="center">A Windows app for organizing photos and videos.</p>
 <p align="center">
-  <a href="https://github.com/sys-manny/stillframe-release/releases"><strong>Download Stillframe</strong></a>
+  <a href="https://github.com/sys-manny/stillframe-release/releases">Download 0.6.0 Beta</a>
   &nbsp; | &nbsp;
-  <a href="https://github.com/sys-manny/stillframe-release/issues">Report an issue</a>
+  <a href="https://github.com/sys-manny/stillframe-release/issues">Report a problem</a>
 </p>
 
-![Stillframe in dark mode, browsing a demo collection of automotive, landscape and night photography](assets/library-dark.png)
+![Stillframe browsing a demo photo and video collection in Dark theme](assets/library-dark.png)
 
-<p align="center"><sub>Actual Stillframe interface with demo media. Video thumbnail labels are illustrative.</sub></p>
+*Screenshots use demo media. Some video labels in the photography examples are illustrative; the gameplay examples use actual video recordings.*
 
-## Less searching. More seeing.
+## Browsing
 
-Bring folders together in one visual workspace. Browse photos and videos, move through thumbnail carousels, and find your way back with meaningful tags.
+You can view photos and videos together or filter by type. Folder covers and thumbnail strips let you browse without opening each file. Scroll to look around; click to select; double-click to open.
 
-**Your originals stay in place.** Stillframe catalogs the folders you choose, without moving your collection into an application folder.
+Rename batches in the order they're currently sorted. Review rename, move and removal actions before applying them.
 
-| See it your way | Make it easier to find |
-| --- | --- |
-| Browse photos and videos together or separately. | Tag folders and individual files. |
-| Choose thumbnails and centered crops. | Give each library its own tag vocabulary. |
-| Set a video range, compare options, pin and re-roll. | Rename batches in their displayed sort order. |
-| Switch between light, dark and system appearance. | Review file changes before applying them. |
+## Tags
 
-## Tags that fit your collection.
+Tag a folder, an individual file, or several selected items at once. Each library has its own vocabulary, so a photography collection doesn't have to use the same tags as a folder of gameplay recordings.
 
-Tag whole folders or individual files, select several items to work in batches, and organize your vocabulary into clear categories. Each library keeps its own vocabulary. Use **Tag tools** to edit available tags or clean unused ones, then filter your collection by the tags you need.
+Tags are grouped by category. **Tag tools** lets you edit the available choices and clean unused tags. Use the sidebar tag filter to find tagged items later.
 
-![Stillframe file-tagging workspace with a photography vocabulary, selected Car tag, photo preview and Tag tools menu open](assets/tags-light.jpg)
+![File tagging with a sample photography vocabulary and Tag tools open](assets/tags-light.jpg)
 
-## Take your collection setup with you.
+## Video playback and thumbnails
 
-Export a library as a **`.sflib` package**, then import it into another Stillframe installation. Bring the catalog, folder/file tags and library vocabulary without rebuilding your organization from scratch.
+Watch clips in the app and use the filmstrip to move between them. During playback, the back and forward controls seek ten seconds. **Play to end**, **Repeat** and **Play through** control what happens next; Stillframe remembers your choice.
 
-- **Library exports** carry cached thumbnails and metadata for reuse.
-- **Preference exports** can bring app settings instead; rebuildable caches are excluded from that export mode.
-- **Original media stays separate.** Make it accessible on the destination PC and use **Locate** if its folder path has changed.
+![Battlefield 6 playback with both demo recordings in the filmstrip](assets/video-playback-light.jpg)
 
-## Your clips, beyond the filename.
+Automatic video thumbnail choices sample the first, middle and last thirds. If you'd rather choose, compare the timestamped options or set a smaller range. Drag either handle to resize the range, or drag between them to move it. Pin an option to keep it while you re-roll the others.
 
-Gameplay highlights, travel footage, everyday recordings: browse videos by their thumbnails, then watch them without leaving your collection. Keep nearby clips in the filmstrip, seek in ten-second steps during playback, and choose Play to end, Repeat or Play through.
+Choosing a range doesn't replace the current thumbnail. **Use thumbnail** applies your choice; failed or cancelled generation keeps the previous image.
 
-![Stillframe playing a Battlefield 6 recording with timeline, ten-second seek controls and a filmstrip containing both demo clips](assets/video-playback-light.jpg)
+![Choosing a video thumbnail with timestamped options, range handles, Pin and Re-roll](assets/video-thumbnail-picker-light.png)
 
-### Pick the frame that tells the story.
+## Duplicate review
 
-Generate video thumbnails automatically or choose your own. Compare timestamped options, narrow the preferred range, pin a keeper, and re-roll the others. The current thumbnail stays until you accept a replacement.
+Stillframe can check for exact duplicates and visually similar files. Review each group and choose what to keep. You can keep more than one copy, keep the entire group, or leave it undecided.
 
-![Stillframe video thumbnail chooser showing real Battlefield 6 frames, timestamps, a preferred-range rail, Pin and Re-roll controls](assets/video-thumbnail-picker-light.png)
+Recycling requires confirmation. An undecided group is left alone.
 
-*Screenshots use the two supplied Battlefield 6 recordings. Only screenshots are included; the video files stay local.*
+![Reviewing two identical copies of a demo photo](assets/duplicate-review.png)
 
+## Moving a library to another installation
 
-## Keep the memories. Review the copies.
+Export a **`.sflib` package** from Manage libraries, then import it into another Stillframe installation. It carries the catalog, folder and file tags, and the library's vocabulary.
 
-Find exact duplicates or visually similar media, inspect the candidates, and choose what stays. Keep one, keep several, or keep everything. Undecided groups stay untouched, and recycling requires confirmation.
+Library exports include cached previews and metadata. The preference-export option brings app settings instead and excludes rebuildable caches.
 
-![Exact duplicate review showing two copies of the same automotive demo photo beside a large preview](assets/duplicate-review.png)
+**The package doesn't contain your original media.** Keep those files accessible on the destination PC. If the folder path changes, use **Locate** to reconnect it.
 
-## Optional intelligence. Local processing.
+## Local AI and cloud folders
 
-**CLIP is included** for visual duplicate matching.
+CLIP is included for visual duplicate matching. The optional **visEngine** addon, powered by Qwen, suggests tags for you to review. It runs on CPU; the optional **RTX Acceleration** addon can speed it up on supported NVIDIA GPUs.
 
-Add **visEngine**, powered by Qwen, for local visual tag suggestions you review before applying. It works on CPU, with optional **RTX Acceleration** on supported NVIDIA GPUs.
+AI analysis runs locally. Stillframe doesn't upload your media for it.
 
-**Media is not uploaded for AI analysis.** Cloud-backed folders work through their desktop provider; opening an on-demand original may download it. Thumbnail download permission is controlled per library.
+For on-demand cloud folders, your desktop provider handles downloading originals. **Allow cloud downloads** controls whether Stillframe can access those files for thumbnail generation. Existing cached previews can still be used with that permission off.
 
-## Light when you want it.
+## Display
 
-The same workspace, with a lighter touch. Open **Display** to choose Light, Dark or System, adjust thumbnail density and accent, and switch between simple and technical media information.
+Choose Light, Dark or System. The **Display** panel also controls thumbnail density, accent color, and simple versus technical media information.
 
-![Stillframe in Light theme with Display open, showing appearance, density, accent and media information controls](assets/display-light.jpg)
+![Light theme with the Display panel open](assets/display-light.jpg)
 
-## Start with a folder.
+## Install
 
-1. Download **`Stillframe-0.6.0-Setup.exe`** and **`Stillframe-0.6.0-win-x64.zip`** into the same folder.
-2. Run setup and choose where to install.
-3. Open Stillframe and add an existing media folder.
+Requires **64-bit Windows**. The .NET Desktop runtime is included.
 
-Setup creates a Start menu shortcut and offers an optional desktop shortcut. Optional addon downloads are listed on the release page; setup verifies and joins the visEngine files automatically.
+1. Download `Stillframe-0.6.0-Setup.exe` and `Stillframe-0.6.0-win-x64.zip` into the same folder.
+2. Run setup and choose an installation folder.
+3. Open Stillframe and add a media folder through Manage libraries.
 
-Prefer portable? Extract the complete application ZIP and run **`Stillframe.exe`**. Keep its contents together.
+Setup creates a Start menu shortcut and offers a desktop shortcut. Optional visEngine and RTX downloads are on the same release page. Setup verifies them and joins the visEngine parts automatically.
 
-**Requires 64-bit Windows.** The .NET Desktop runtime is included; no separate .NET installation is needed.
+For a portable installation, extract the complete application ZIP and run `Stillframe.exe`. Keep the extracted files together.
 
-[**Download the public beta**](https://github.com/sys-manny/stillframe-release/releases)
+[Download Stillframe](https://github.com/sys-manny/stillframe-release/releases)
 
----
+## Why Stillframe exists
 
-### A note about the beta
+I kept running into the same tradeoffs with media managers. Some had the tools
+but a frustrating layout. Others looked great but were missing features I used.
+A few came close, but weren't free.
 
-Stillframe is actively being refined. Keep backups of important media and review file-operation plans before applying them. The app and installer are currently **unsigned**, so Windows may display a SmartScreen reputation warning.
+F-Spot Photo Manager on Ubuntu 8.04 LTS, running GNOME, was an early reference
+point for me. I remember wondering why something that smooth and easy to use
+couldn't make its way to Windows. If parts of Stillframe feel familiar to you,
+now you know why.
 
-Found something unexpected? [Report an issue](https://github.com/sys-manny/stillframe-release/issues) with the version, steps to reproduce, and a screenshot or recording when useful. Leave private media and personal information out of public reports.
+Eventually, I figured, why the heck not? In the spirit of Thanos reaching for the
+stones: I'll do it myself.
 
-<sub>This repository hosts public downloads, documentation and issue reports. Application source code is not distributed here.</sub>
+Stillframe is the result. The goal is to put a usable layout and useful tools in
+the same application, free for personal use.
+
+## License
+
+Stillframe is free for personal, noncommercial use under the [Stillframe Personal Use License](LICENSE). Commercial and organizational use require separate permission. Application source remains private; third-party components retain their own licenses.
+
+## Before you use the beta
+
+Keep backups of important media and check file-operation previews before applying changes. The app and installer are unsigned, so Windows may show a SmartScreen reputation warning.
+
+To report a bug, [open an issue](https://github.com/sys-manny/stillframe-release/issues) with steps to reproduce, expected and actual behavior, and your Stillframe version. Include a screenshot or recording if useful. Leave private media and personal information out of public reports.
+
+This repository contains public downloads, documentation and issue reports. The application source remains private.

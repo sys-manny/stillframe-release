@@ -33,6 +33,21 @@ Bring folders together in one visual workspace. Browse photos and videos, move t
 | Set a video range, compare options, pin and re-roll. | Rename batches in their displayed sort order. |
 | Switch between light, dark and system appearance. | Review file changes before applying them. |
 
+## Your clips, beyond the filename.
+
+Gameplay highlights, travel footage, everyday recordings: browse videos by their thumbnails, then watch them without leaving your collection. Keep nearby clips in the filmstrip, seek in ten-second steps during playback, and choose Play to end, Repeat or Play through.
+
+![Stillframe playing a Battlefield 6 recording with timeline, ten-second seek controls and a filmstrip containing both demo clips](assets/video-playback-light.jpg)
+
+### Pick the frame that tells the story.
+
+Generate video thumbnails automatically or choose your own. Compare timestamped options, narrow the preferred range, pin a keeper, and re-roll the others. The current thumbnail stays until you accept a replacement.
+
+![Stillframe video thumbnail chooser showing real Battlefield 6 frames, timestamps, a preferred-range rail, Pin and Re-roll controls](assets/video-thumbnail-picker-light.png)
+
+*Screenshots use the two supplied Battlefield 6 recordings. Only screenshots are included; the video files stay local.*
+
+
 ## Keep the memories. Review the copies.
 
 Find exact duplicates or visually similar media, inspect the candidates, and choose what stays. Keep one, keep several, or keep everything. Undecided groups stay untouched, and recycling requires confirmation.

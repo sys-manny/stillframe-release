@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/stillframe-072-frost.png" width="88" alt="Stillframe aperture logo"></p>
+<p align="center"><img src="assets/stillframe-frost.png" width="88" alt="Stillframe aperture logo"></p>
 <h1 align="center">Stillframe 0.7.6</h1>
 <p align="center">Browse, organize, and review photos and videos in their existing folders.</p>
 <p align="center">
@@ -47,6 +47,10 @@ Use the filmstrip to move through a folder. Fit, zoom, pan, and rotate photos in
 For a 0.7.5 upgrade, close Stillframe, then copy your complete `app/Stillframe` profile to the new release's `app` folder. That profile contains settings and saved thumbnails. Use the same paths for the original media.
 
 [Getting started](INSTALL-0.7.6.md) · [Release notes and known limits](RELEASE-0.7.6.md) · [SHA-256 checksums](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.6/SHA256SUMS.txt)
+
+## Previous releases
+
+Earlier downloads and their documentation are available on the [Releases page](https://github.com/sys-manny/stillframe-release/releases).
 
 ## License and runtime source
 

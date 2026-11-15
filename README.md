@@ -1,51 +1,45 @@
 <p align="center"><img src="assets/stillframe-072-frost.png" width="88" alt="Stillframe aperture logo"></p>
-<h1 align="center">Stillframe 0.7.2</h1>
+<h1 align="center">Stillframe 0.7.6</h1>
 <p align="center">Browse, organize, and review photos and videos in their existing folders.</p>
 <p align="center">
-  <a href="https://github.com/sys-manny/stillframe-release/releases/download/v0.7.2/Stillframe-0.7.2-win-x64.zip"><strong>Download for Windows x64</strong></a>
-  &nbsp; · &nbsp; <a href="INSTALL-0.7.2.md">Getting started</a>
+  <a href="https://github.com/sys-manny/stillframe-release/releases/download/v0.7.6/Stillframe-0.7.6-win-x64.zip"><strong>Download for Windows x64</strong></a>
+  &nbsp; · &nbsp; <a href="INSTALL-0.7.6.md">Getting started</a>
   &nbsp; · &nbsp; <a href="https://github.com/sys-manny/stillframe-release/issues">Report a problem</a>
 </p>
 <p align="center"><a href="https://slint.dev/"><img src="assets/made-with-slint.png" width="118" alt="Made with Slint"></a></p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stillframe-072-library-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/stillframe-072-library-light.png">
-  <img src="assets/stillframe-072-library-dark.png" alt="Stillframe All Libraries view with a folder tree, media grid, and a details sidebar" width="1000">
-</picture>
+<img src="assets/stillframe-076-grid.png" alt="Stillframe Grid showing a car photography folder, sidebar, and details for the selected photo" width="1200">
 
-*Stillframe 0.7.2 interface rendered with illustrated sample media.*
+*Stillframe 0.7.6 Grid rendered with photos from the disposable demo library.*
 
-| Browse | Organize | Review |
-| --- | --- | --- |
-| All Libraries, continuous Grid and Column views, search, and sorting | Rename and move files, manage folders, and pin video thumbnails | Exact and Visual duplicate review, plus local People scans and named albums |
+## What's new since 0.7.2
 
-## What's new in 0.7.2
+- **People.** Stillframe uses YuNet to detect faces and OpenFace with SFace to suggest groups. Click a stack's count badge to open or close it in place. Compare suggested matches using source photos with face outlines, and ignore unwanted detections such as reflections.
+- **Thumbnails.** One **Generate thumbnails** button fills in missing thumbnails for the selected files, folder, or library. Generation runs in the background, and you can still choose a frame for a video thumbnail.
+- **Browsing.** Staggered Grid uses saved dimensions to size cards early. It keeps recently viewed thumbnails in memory and preloads the next screen.
+- **Portable startup.** Open `Stillframe.exe` directly. The splash shows startup progress while the app opens.
+- **Format support.** The viewer and thumbnail generator handle more JPEG, PNG, and WebP files, including the reported JPEGs with extra data after the first complete image.
 
-- **All Libraries** brings imported folders into one view. Browse a single folder or turn on **Include subfolders** to see media further down the tree.
-- **People** detects faces locally with YuNet and suggests matches with OpenFace. Scan selected folders, confirm names, and browse a person's photos as an album.
-- **Thumbnails** offers Selected, This folder, and Library scopes. Generation runs in the background with progress and Cancel in the footer.
-- **Duplicate review** compares exact copies or visually similar photos within a library. Stop a scan to review the matches already found and resume it when ready.
-- The viewer and thumbnail generator handle JPEGs with an unset EXIF orientation.
+## Photo viewer
 
-## Compare duplicates
+Use the filmstrip to move through a folder. Fit, zoom, pan, and rotate photos in the viewer.
 
-Review similar photos side by side. Choose a keeper, or keep every file in a group. You can compare detail or use relative size to see how a crop relates to its original.
+<img src="assets/stillframe-076-viewer.png" alt="Stillframe photo viewer with a car at sunset, zoom controls, and the folder filmstrip" width="1200">
 
-<img src="assets/stillframe-072-duplicates.png" alt="Visual duplicate review comparing an illustrated harbor image with its cropped copy" width="1000">
+*Photo viewer rendered with the same demo library.*
 
 ## Run the portable app
 
-1. Download the Windows ZIP and extract the **entire archive** to a writable folder.
-2. Open `Launch.cmd`.
-3. Choose **Import** to add your existing media folders.
+1. [Download the ZIP](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.6/Stillframe-0.7.6-win-x64.zip) and extract the entire archive to a writable folder.
+2. Open `Stillframe.exe`.
+3. Choose **Import** to add a media folder.
 
-Settings, thumbnail cache, and People data are stored beside the app. A new extraction starts with a fresh profile. This release is unsigned, so Windows may show a SmartScreen reputation warning.
+For a 0.7.5 upgrade, close Stillframe, then copy your complete `app/Stillframe` profile to the new release's `app` folder. That profile contains settings and saved thumbnails. Use the same paths for the original media.
 
-[Getting started](INSTALL-0.7.2.md) · [Release notes and limits](RELEASE-0.7.2.md) · [Previous 0.6.4 release](https://github.com/sys-manny/stillframe-release/releases/tag/v0.6.4)
+[Getting started](INSTALL-0.7.6.md) · [Release notes and known limits](RELEASE-0.7.6.md) · [SHA-256 checksums](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.6/SHA256SUMS.txt)
 
 ## License and runtime source
 
-Stillframe is free for personal, noncommercial use under the [Stillframe Personal Use License](LICENSE). Media and face processing run locally. The public repository contains downloads and documentation.
+Stillframe is free for personal, noncommercial use under the [Stillframe Personal Use License](LICENSE). Media and face processing run locally.
 
-The bundled playback runtime uses libmpv and FFmpeg. Its corresponding third-party source, build configuration, and notices are available from the same release page. [Playback runtime source](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.2/Stillframe-0.7.2-playback-runtime-source.zip) · [SHA-256 checksums](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.2/SHA256SUMS.txt)
+0.7.6 ships with the same playback DLLs as the 0.7.2 public release. [Corresponding playback runtime source](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.2/Stillframe-0.7.2-playback-runtime-source.zip)

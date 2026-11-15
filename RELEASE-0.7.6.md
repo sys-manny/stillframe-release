@@ -2,13 +2,15 @@
 
 **Windows x64 · Portable ZIP · Free for personal, noncommercial use**
 
+The updated package launches directly from supported exFAT SSDs. Existing 0.7.6 installations can be updated by replacing the root `Stillframe.exe`.
+
 - Review suggested People stacks inline and open or close them from the same badge. Compare source photos with face outlines before assigning names. **Ignore** covers both false detections and unwanted duplicates such as reflections.
 - YuNet detects faces. OpenFace and SFace score matches for suggested stacks. Previously scanned records stay readable.
 - Generate missing thumbnails from the sidebar while you browse. Manual video frame selection remains available.
 - Staggered Grid uses saved dimensions and reads missing photo dimensions in the background. Nearby thumbnails preload during scrolling.
 - The viewer and thumbnail generator handle the reported JPEGs with an extra entropy sequence after the first complete image, along with expanded PNG and WebP support.
 
-Extract the full ZIP and open `Stillframe.exe`. [Getting started](https://github.com/sys-manny/stillframe-release/blob/v0.7.6/INSTALL-0.7.6.md)
+Extract the full ZIP and open `Stillframe.exe`. [Getting started](https://github.com/sys-manny/stillframe-release/blob/main/INSTALL-0.7.6.md)
 
 ## Known limits
 

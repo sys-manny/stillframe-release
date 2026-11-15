@@ -48,6 +48,8 @@ For a 0.7.5 upgrade, close Stillframe, then copy your complete `app/Stillframe` 
 
 [Getting started](INSTALL-0.7.6.md) · [Release notes and known limits](RELEASE-0.7.6.md) · [SHA-256 checksums](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.6/SHA256SUMS.txt)
 
+The updated 0.7.6 runs directly from supported exFAT SSDs. To update an existing 0.7.6 copy, close Stillframe and replace the root `Stillframe.exe` from the ZIP.
+
 ## Previous releases
 
 Earlier downloads and their documentation are available on the [Releases page](https://github.com/sys-manny/stillframe-release/releases).

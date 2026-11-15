@@ -8,9 +8,19 @@
 </p>
 <p align="center"><a href="https://slint.dev/"><img src="assets/made-with-slint.png" width="118" alt="Made with Slint"></a></p>
 
-<img src="assets/stillframe-076-grid.png" alt="Stillframe Grid showing a car photography folder, sidebar, and details for the selected photo" width="1200">
+## Light and dark modes
 
-*Stillframe 0.7.6 Grid rendered with photos from the disposable demo library.*
+| Light | Dark |
+| --- | --- |
+| [![Stillframe Grid in light mode with the Orchid accent](assets/stillframe-076-grid-light.png)](assets/stillframe-076-grid-light.png) | [![Stillframe Grid in dark mode with the Orchid accent](assets/stillframe-076-grid.png)](assets/stillframe-076-grid.png) |
+
+In **Preferences → Theme**, choose **Light**, **Dark**, or **System** to follow Windows. Both views show the same photos from the disposable demo library.
+
+### Accent colors
+
+Under **Preferences → Accent**, choose **Sage**, **Arctic**, **Rose**, or **Orchid**. Each accent works in both themes.
+
+<img src="assets/stillframe-076-accents.png" width="392" alt="Stillframe Accent menu showing Sage green, Arctic blue, Rose pink, and Orchid purple">
 
 ## What's new since 0.7.2
 

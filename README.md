@@ -22,6 +22,14 @@ Under **Preferences → Accent**, choose **Sage**, **Arctic**, **Rose**, or **Or
 
 <img src="assets/stillframe-076-accents.png" width="392" alt="Stillframe Accent menu showing Sage green, Arctic blue, Rose pink, and Orchid purple">
 
+## Latest 0.7.6 update
+
+- Carry a selected photo between People and All Libraries, and open its source folder from a face card.
+- Run **Scan people** on one or more selected photos from the Grid or Column right-click menu.
+- Drag the Details divider to resize the panel in Grid, Column, and People.
+- Review Exact and Visual duplicates across libraries and save Keep choices. Within one library, process discards from both tabs in one confirmation.
+- Reopen saved folder pages and use available photo dimensions to size Staggered Grid cards before display.
+
 ## What's new since 0.7.2
 
 - **People.** Stillframe uses YuNet to detect faces and OpenFace with SFace to suggest groups. Click a stack's count badge to open or close it in place. Compare suggested matches using source photos with face outlines, and ignore unwanted detections such as reflections.

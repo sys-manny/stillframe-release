@@ -2,7 +2,13 @@
 
 **Windows x64 · Portable ZIP · Free for personal, noncommercial use**
 
-The updated package launches directly from supported exFAT SSDs. Existing 0.7.6 installations can be updated by replacing the root `Stillframe.exe`.
+This update adds selected-photo People scans, resizable Details, and cross-library duplicate review. It retains direct startup on supported exFAT SSDs. To update an existing 0.7.6 installation, close Stillframe and replace the root `Stillframe.exe`.
+
+- Carry a selected photo between People and All Libraries, and open its source folder from a face card.
+- Run **Scan people** on one or more selected photos from the Grid or Column right-click menu.
+- Drag the Details divider to resize the panel in Grid, Column, and People.
+- Review Exact and Visual duplicates across libraries and save Keep choices. Within one library, process discards from both tabs in one confirmation.
+- Reopen saved folder pages and use available photo dimensions to size Staggered Grid cards before display.
 
 - Review suggested People stacks inline and open or close them from the same badge. Compare source photos with face outlines before assigning names. **Ignore** covers both false detections and unwanted duplicates such as reflections.
 - YuNet detects faces. OpenFace and SFace score matches for suggested stacks. Previously scanned records stay readable.

@@ -1,6 +1,6 @@
-# Getting started with Stillframe 0.7.7
+# Getting started with Stillframe 0.7.8
 
-1. [Download the Windows x64 ZIP](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.7/Stillframe-0.7.7-win-x64.zip).
+1. [Download the Windows x64 ZIP](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.8/Stillframe-0.7.8-win-x64.zip).
 2. Extract the entire archive to a writable folder and open `Stillframe.exe`.
 3. Choose **Import** and pick one of your existing media folders.
 
@@ -14,4 +14,4 @@ To move to another drive or PC, close Stillframe and copy the entire extracted a
 
 If you're upgrading from 0.6.4, import your folders into the new release. Migration of old catalogs and tags remains deferred.
 
-This build is unsigned. Windows may show a SmartScreen reputation warning. Use the [published checksums](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.7/SHA256SUMS.txt) to verify the ZIP.
+This build is unsigned. Windows may show a SmartScreen reputation warning. Use the [published checksums](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.8/SHA256SUMS.txt) to verify the ZIP.

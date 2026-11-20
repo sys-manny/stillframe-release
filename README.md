@@ -1,9 +1,9 @@
 <p align="center"><img src="assets/stillframe-frost.png" width="88" alt="Stillframe aperture logo"></p>
-<h1 align="center">Stillframe 0.7.7</h1>
+<h1 align="center">Stillframe 0.7.8</h1>
 <p align="center">Browse, organize, and review photos and videos in their existing folders.</p>
 <p align="center">
-  <a href="https://github.com/sys-manny/stillframe-release/releases/download/v0.7.7/Stillframe-0.7.7-win-x64.zip"><strong>Download for Windows x64</strong></a>
-  &nbsp; · &nbsp; <a href="INSTALL-0.7.7.md">Getting started</a>
+  <a href="https://github.com/sys-manny/stillframe-release/releases/download/v0.7.8/Stillframe-0.7.8-win-x64.zip"><strong>Download for Windows x64</strong></a>
+  &nbsp; · &nbsp; <a href="INSTALL-0.7.8.md">Getting started</a>
   &nbsp; · &nbsp; <a href="https://github.com/sys-manny/stillframe-release/issues">Report a problem</a>
 </p>
 <p align="center"><a href="https://slint.dev/"><img src="assets/made-with-slint.png" width="118" alt="Made with Slint"></a></p>
@@ -22,15 +22,14 @@ Under **Preferences → Accent**, choose **Sage**, **Arctic**, **Rose**, or **Or
 
 <img src="assets/stillframe-076-accents.png" width="392" alt="Stillframe Accent menu showing Sage green, Arctic blue, Rose pink, and Orchid purple">
 
-## Latest 0.7.7 update
+## Latest 0.7.8 update
 
-- Choose **Scan exact (fast)** or **Scan visual (slow)** from the shared Selected / This folder / Library panel. Refresh works independently.
-- Exact and Visual duplicate scans use temporary SQLite listings, including All Libraries. The previous listing and 512-photo Visual limits no longer cut those scans short.
-- Duplicate preparation respects the selected folder and **Include subfolders**. Progress, retry, stopping, review layout, and stale results are repaired.
-- Recycling duplicates updates affected folder counts without clearing unrelated counts or thumbnails.
-- Reuse saved thumbnails after a drive remount, with source checks and manually chosen video frames preserved.
-- Open more JPEG and PNG files, including the reported EXIF, padding, multi-image JPEG, and large-PNG cases.
-- Change Grid density without leaving a blank scroll area. Video progress keeps following playback after seeking and changing clips, and Back restores the normal window after fullscreen.
+- **Browse while All Libraries loads.** Verified cards appear before the full listing finishes. Select and open photos while loading continues; your selection stays intact when the final list arrives.
+- **Start navigating sooner.** The sidebar becomes usable early, restores your last folder or All Libraries, and brings the reopened folder into view.
+- **Clear loading progress.** All Libraries uses the bottom bar for checked counts, loading status, and Cancel. Scan and thumbnail controls remain available after listing finishes.
+- **Remember Include subfolders.** Its setting is saved between sessions.
+- **Responsive thumbnail generation.** Reuse a job's thumbnail-cache name index to reduce repeated directory opens, while retaining source checks and full validation of cached thumbnails.
+- **Explicit People scans.** Use the shared sidebar scope panel. Opening the controls starts no job; press **Scan People** to scan the chosen selection, folder, or library.
 
 ## What's new since 0.7.2
 
@@ -50,13 +49,13 @@ Use the filmstrip to move through a folder. Fit, zoom, pan, and rotate photos in
 
 ## Run the portable app
 
-1. [Download the ZIP](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.7/Stillframe-0.7.7-win-x64.zip) and extract the entire archive to a writable folder.
+1. [Download the ZIP](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.8/Stillframe-0.7.8-win-x64.zip) and extract the entire archive to a writable folder.
 2. Open `Stillframe.exe`.
 3. Choose **Import** to add a media folder.
 
-To upgrade from 0.7.5 or 0.7.6, close Stillframe and preserve the complete `app/Stillframe` profile when moving to the new release. It contains settings, registered libraries, and saved thumbnails. Keep the same paths for the original media.
+To upgrade from a recent portable release, close Stillframe and preserve the complete `app/Stillframe` profile when moving to the new release. It contains settings, registered libraries, and saved thumbnails. Keep the same paths for the original media.
 
-[Getting started](INSTALL-0.7.7.md) · [Release notes and known limits](RELEASE-0.7.7.md) · [SHA-256 checksums](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.7/SHA256SUMS.txt)
+[Getting started](INSTALL-0.7.8.md) · [Release notes and known limits](RELEASE-0.7.8.md) · [SHA-256 checksums](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.8/SHA256SUMS.txt)
 
 The portable app supports writable local NTFS and exFAT drives that Windows reports as fixed. To carry your settings and thumbnails to another drive or PC, close Stillframe and copy the entire extracted application folder.
 
@@ -68,4 +67,4 @@ Earlier downloads and their documentation are available on the [Releases page](h
 
 Stillframe is free for personal, noncommercial use under the [Stillframe Personal Use License](LICENSE). Media and face processing run locally.
 
-0.7.7 ships with the same playback DLLs as the 0.7.2 public release. [Corresponding playback runtime source](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.2/Stillframe-0.7.2-playback-runtime-source.zip)
+0.7.8 ships with the same playback DLLs as the 0.7.2 public release. [Corresponding playback runtime source](https://github.com/sys-manny/stillframe-release/releases/download/v0.7.2/Stillframe-0.7.2-playback-runtime-source.zip)

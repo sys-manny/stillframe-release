@@ -1,4 +1,4 @@
-# Stillframe 0.8.0 Falcon
+# Stillframe 0.8.0
 
 **Windows x64 · Portable ZIP · Free for personal, noncommercial use**
 
